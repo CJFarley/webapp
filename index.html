@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Christina's Diner, Cambridge</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<!--div signals a block of text, a unit-->
+<div class="container">
+    <h1>Christina's Diner</h1>
+
+    <h2>Christina's awesome!</h2>
+
+    <div class = "row">
+            <div class = "col-xs-2">
+                 <form class = "inline" id="greeting-form">
+                     <div class="form-group">
+                     <label> What's your name? </label>
+                     <input class = "form-control" type = "text" name = "fullName"/>
+                     <!--<button class = "btn btn-warning" type = "submit">OK</button >-->
+                     </div>
+                     <div class="form-group">
+                     <label> What's your email? </label>
+                     <input class = "form-control" type = "email" name = "email"/>
+                     </div>
+                     <button class = "btn btn-warning" type = "submit">OK</button>
+
+                 </form> <div id="greeting"></div>
+            </div>
+    </div>
+
+
+    <!--"row" makes columns, for md size screens you would have 12 columns(12 units of size), col-md-6 splits the screen into 6 columns -->
+    <div class="row menu">
+
+        <!--sidebar takes 4 parts whereas the rest (8 parts) is divided again into 12 parts which then take 4 parts 3 parts which shrink accordingly-->
+
+        <div class="col-xs-2" id="sidebar">
+            <h3>Sidebar</h3>
+        </div>
+        <div class="col-xs-10">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-5">
+                    <h2>Mains</h2>
+                    <img src="img/pizza.bmp" class="img-circle img-responsive"/>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h2>Desert</h2>
+                    <img src="img/desert.bmp" class="img-circle img-responsive"/>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <h2>Drinks</h2>
+                    <img src="img/drinks2.bmp" class="img-circle img-responsive"/>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h2>Dessert</h2>
+                    <img src="img/cake.bmp" class="img-circle img-responsive"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-md-4">
+            <form id="booking-form"><label>Would you like to make a booking?</label>
+                <div class="form-group">
+                    <label> What's your name? </label>
+                    <input class = "form-control" type = "text" name = "fullName"/>
+                    <!--<button class = "btn btn-warning" type = "submit">OK</button >-->
+                </div>
+                <div class="form-group">
+                    <label> What's your email? </label>
+                    <input class = "form-control" type = "email" name = "email"/>
+                </div>
+                <button class = "btn btn-success" type = "submit">OK</button>
+
+            </form> <div id="booking"></div>
+        </div>
+    </div>
+    <div class="row">
+
+        <h3>Our menu is awesome as well:</h3>
+        <ul> <!--unordered list -  ordered lisT -->
+            <li><a href="pizzas.html" class="test veggie" id="first-item second-item">Pizzas</a></li>
+            <!--CLOSING TAG WITH /; a is a command telling the browser that this is a link-->
+            <li><a href="chicken.html" class="test" id="second item">Chicken sandwiches</a></li>
+            <li><a href="chips.html" class="veggie">Chips</a></li>
+        </ul>
+    </div>
+
+
+</div>
+
+<script src = "jquery.js"> </script>
+<script src = "myfrontend.js"> </script>
+</body>
+</html>

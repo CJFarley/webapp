@@ -1,0 +1,59 @@
+/*h1*/
+/*{*/
+/*color: darkblue;*/
+/*font-family: fantasy;*/
+/*should specify a series of fonts as fonts differ across machines -->*/
+/*font-style: italic;*/
+
+/*}*/
+
+/*h2{*/
+/*color: red;*/
+/*font-size: 23px;*/
+/*}*/
+
+/*a*/
+/*{*/
+/*color: deeppink;*/
+
+/*font-size: 20px;*/
+/*font-style: bold;*/
+/*font-weight: 700;*/
+/*makes text bold with font weight*/
+/*}*/
+
+/*define classes with .*/
+/*define ids with #*/
+/*ids are unique and always trump classes if in same command line*/
+/*classes can be shared*/
+/*.test{*/
+/*color: greenyellow;*/
+/*}*/
+
+/*.veggie{*/
+/*color: deepskyblue;*/
+/*}*/
+
+/*#first-item*/
+/*{*/
+/*border-top: crimson solid;*/
+/*}*/
+
+/*#second-item*/
+/*{*/
+/*border: solid;*/
+/*border-bottom: pink solid;*/
+/*}*/
+
+#sidebar {
+    background-color: deepskyblue;
+    color: white
+}
+
+.img-responsive {
+    max-width: 95%;
+}
+
+.menu {
+    padding-top: 30px;
+}
